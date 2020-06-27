@@ -15,7 +15,7 @@ Automatically updates IP blacklist for EdgeOS
     +   group {
     +       network-group BLACKLIST_DROP {
     +       }
-    +       network-group BLACKLIST_DROPv6 {
+    +       ipv6-network-group BLACKLIST_DROPv6 {
     +       }
     +   }
         ...
